@@ -1,0 +1,496 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hope Empowerment Foundation - Uganda</title>
+<link rel="icon" href="https://64.media.tumblr.com/925b2ec9c36d6d1a2dafbecd6bf5b6e3/ed30b0161d720ad2-29/s1280x1920/0f604f4f7fab46b80032c47769b4b57d0dd3538d.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+<script>
+
+    function showlinks() {
+        document.getElementById("barbox").style.display = 'none';
+        document.getElementById("crossbox").style.display = 'inline-block';
+        document.getElementById("links").style.display = 'inline-block';
+    }
+    
+    function hidelinks() {
+        document.getElementById("barbox").style.display = 'inline-block';
+        document.getElementById("crossbox").style.display = 'none';
+        document.getElementById("links").style.display = 'none';
+    }
+    
+    function a1() {
+        document.getElementById("imagea1").style.display = 'block';
+        document.getElementById("imagea2").style.display = 'none';
+        document.getElementById("imagea3").style.display = 'none';
+        document.getElementById("circlea1").classList.add('viewing');
+        document.getElementById("circlea1").classList.remove('notviewing');
+        document.getElementById("circlea2").classList.remove('viewing');
+        document.getElementById("circlea2").classList.add('notviewing');
+        document.getElementById("circlea3").classList.remove('viewing');
+        document.getElementById("circlea3").classList.add('notviewing');
+    }
+    function a2() {
+        document.getElementById("imagea1").style.display = 'none';
+        document.getElementById("imagea2").style.display = 'block';
+        document.getElementById("imagea3").style.display = 'none';
+        document.getElementById("circlea1").classList.remove('viewing');
+        document.getElementById("circlea1").classList.add('notviewing');
+        document.getElementById("circlea2").classList.add('viewing');
+        document.getElementById("circlea2").classList.remove('notviewing');
+        document.getElementById("circlea3").classList.remove('viewing');
+        document.getElementById("circlea3").classList.add('notviewing');
+    }
+    function a3() {
+        document.getElementById("imagea1").style.display = 'none';
+        document.getElementById("imagea2").style.display = 'none';
+        document.getElementById("imagea3").style.display = 'block';
+        document.getElementById("circlea1").classList.remove('viewing');
+        document.getElementById("circlea1").classList.add('notviewing');
+        document.getElementById("circlea2").classList.remove('viewing');
+        document.getElementById("circlea2").classList.add('notviewing');
+        document.getElementById("circlea3").classList.add('viewing');
+        document.getElementById("circlea3").classList.remove('notviewing');
+    }
+    function s1() {
+        document.getElementById("images1").style.display = 'block';
+        document.getElementById("images2").style.display = 'none';
+        document.getElementById("circles1").classList.add('viewing');
+        document.getElementById("circles1").classList.remove('notviewing');
+        document.getElementById("circles2").classList.remove('viewing');
+        document.getElementById("circles2").classList.add('notviewing');
+    }
+    function s2() {
+        document.getElementById("images1").style.display = 'none';
+        document.getElementById("images2").style.display = 'block';
+        document.getElementById("circles1").classList.remove('viewing');
+        document.getElementById("circles1").classList.add('notviewing');
+        document.getElementById("circles2").classList.add('viewing');
+        document.getElementById("circles2").classList.remove('notviewing');
+    }
+    function c1() {
+        document.getElementById("imagec1").style.display = 'block';
+        document.getElementById("imagec2").style.display = 'none';
+        document.getElementById("circlec1").classList.add('viewing');
+        document.getElementById("circlec1").classList.remove('notviewing');
+        document.getElementById("circlec2").classList.remove('viewing');
+        document.getElementById("circlec2").classList.add('notviewing');
+    }
+    function c2() {
+        document.getElementById("imagec1").style.display = 'none';
+        document.getElementById("imagec2").style.display = 'block';
+        document.getElementById("circlec1").classList.remove('viewing');
+        document.getElementById("circlec1").classList.add('notviewing');
+        document.getElementById("circlec2").classList.add('viewing');
+        document.getElementById("circlec2").classList.remove('notviewing');
+    }
+</script>
+
+
+    <meta name="color:accent" content="#88b0b6" />
+
+<style>
+@charset "utf-8";
+
+iframe {
+    display:none !important;
+}
+:root {
+    --accent:#88b0b6;
+    --lightaccent:#b9d5d9;
+    --darkaccent1:#457e87;
+    --darkaccent2:#2a656e;
+    --light:#fff;
+    --dark:#000;
+    --nicefont:'Abril Fatface', cursive;
+    --regfont:'Open Sans', sans-serif;
+}
+::-webkit-scrollbar {width:10px;}
+::-webkit-scrollbar-track {background:#f1f1f1;}
+::-webkit-scrollbar-thumb {background:{color:accent};}
+::-webkit-scrollbar-thumb:hover {background:var(--dark);}
+
+::selection {background-color:var(--lightaccent);}
+
+body {
+    width:98vw;
+    background:url('https://images.unsplash.com/photo-1551357141-f73a8402ceb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80') no-repeat fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    font-family:var(--regfont);
+    font-size:20px;
+    font-weight:0;
+    color:var(--dark);
+}
+
+img {max-width:80%;}
+.headerwrap {
+    background:url('https://images.unsplash.com/photo-1551357141-f73a8402ceb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80') no-repeat fixed;
+    background-size:cover;
+    width:100vw;
+    height:auto;
+    margin:0 auto;
+    padding-bottom:20px;
+}
+
+#header {
+    margin-top:30px;
+    padding-top:7px;
+    font-family:var(--nicefont);
+    color:var(--light);
+    font-size:1.5em;
+}
+#logo {
+    float:left;
+    margin-top:-20px;
+    margin-left:20px;
+    letter-spacing:.03em;
+    text-transform:uppercase;
+}
+#logo:hover {
+    cursor:pointer;
+    color:var(--darkaccent2);
+}
+#logo a {
+    text-decoration:none;
+    color:var(--light);
+}
+#logo a:hover {
+    font-weight:normal;
+}
+#logo img {
+    margin-left:15px;
+    margin-right:15px;
+}
+
+#links {
+    float:right;
+    margin-right:150px;
+    display:none;
+}
+#links a {
+    margin-left:35px;
+    text-transform:capitalize;
+    text-decoration:none;
+    color:var(--light);
+    display:inline-block;
+}
+#links a:hover {
+    font-weight:normal;
+    cursor:pointer;
+}
+
+#barbox {
+    position:absolute;
+    float:right;
+    margin-top:5px;
+    right:70px;
+    display:block;
+}
+#barbox:hover {cursor:pointer;}
+.lbar {
+    width:30px;
+    height:3px;
+    background-color:var(--light);
+    margin:6px 0;
+}
+#crossbox {display:none;}
+#cross {
+    position:absolute;
+    float:right;
+    margin-top:10px;
+    right:70px;
+    top:32px;
+    width:32px;
+    height:32px;
+    opacity:0.5;
+}
+#cross:hover {
+    opacity:1;
+    cursor:pointer;
+}
+#cross:before, #cross:after {
+    position:absolute;
+    left:15px;
+    content:' ';
+    height:33px;
+    width:3px;
+    background-color:var(--light);
+}
+#cross:before {transform:rotate(45deg);}
+#cross:after {transform:rotate(-45deg);}
+.active {
+    background:linear-gradient(0deg, {color:accent} 40%, transparent 40%);
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#landing {
+    background:url('https://images.unsplash.com/photo-1551357141-f73a8402ceb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80') no-repeat fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    overflow:hidden;
+    height:100vh;
+    display:block;
+}
+#landingbox {
+    font-family:var(--nicefont);
+    color:var(--light);
+    text-align:center;
+    margin-top:20%;
+}
+
+.heading1, .heading2 {
+    font-size:3.5em;
+    line-height:1.15em;
+    display:inline;
+}
+.heading2 {font-family:var(--nicefont);color:var(--dark);}
+.subheading1, .subheading2 {
+    font-family:var(--regfont);
+    font-size:1.5em;
+    margin-top:2%;
+    margin-bottom:50px;
+}
+.subheading2 {
+    color:var(--dark);
+    background:linear-gradient(0deg, var(--lightaccent) 35%, transparent 35%);
+    display:inline-block;
+    font-weight:bold;
+    margin-bottom:0px;
+}
+
+.centerbox {text-align:center;}
+
+.btnbox {display:flex;align-items:center;justify-content:center}
+.btn, .btn2 {
+    border:2px solid var(--light);
+    background:var(--light);
+	padding:6px 6px;
+	padding-left:14px;
+	padding-right:14px;
+	font-family:var(--regfont);
+	font-size:1em;
+	color:var(--darkaccent2);
+}
+.btn:hover, .btn2:hover {
+    font-weight:bold;
+    padding-left:10px;
+    padding-right:10px;
+    color:var(--darkaccent1);
+    cursor:pointer;
+}
+.btn2 {
+    margin-top:30px;
+    border:2px solid var(--darkaccent1);
+    background:var(--darkaccent1);
+}
+.btn2:hover {
+    padding-left:12px;
+    padding-right:12px;
+    border:2px solid var(--lightaccent);
+    background-color:var(--lightaccent);
+}
+.btn a {text-decoration:none;}
+.btn2 a {color:var(--light);font-style:none;}
+.btn2 a:hover {color:var(--darkaccent1);}
+
+#content1, #content2, #content3 {padding:7% 4.5% 4.5% 5%;background:var(--light);}
+#content2 {background:var(--lightaccent);}
+
+#about {
+    margin-top:2em;
+    padding:1em;
+    padding-bottom:2em;
+}
+
+a {color:var(--darkaccent1);text-decoration:none;}
+a:hover {font-weight:bold;text-decoration:none;}
+.slideshow {
+    text-align:center;
+    align-items:center;
+    content-align:center;
+    width:100%;
+    height:30%;
+}
+
+.viewbox {display:inline-block;margin-top:15px;}
+#circlea1, #circlea2, #circlea3, #circles1, #circles2, #circlec1, #circlec2 {
+    height:20px;
+    width:20px;
+    background-color:var(--darkaccent1);
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    display:inline-block;
+    margin:10px;
+}
+.viewing {opacity:1;}
+.notviewing {opacity:.5;}
+#circlea1:hover, #circlea2:hover, #circlea3:hover, #circles1:hover, #circles2:hover, #circlec1:hover, #circlec2:hover {
+    cursor:pointer;
+    opacity:.8;
+}
+.images {
+    max-height:50vh;
+    overflow:hidden;
+    margin-top:20px;
+    padding-top:10px;
+}
+#imagea1, #imagea2, #imagea3, #images1, #images2, #imagec1, #imagec2 {
+}
+#imagea2, #imagea3, #images2, #imagec2 {display:none;}
+#images00, #images01 {max-height:30%;margin-top:20px;}
+
+.ref {
+    display:inline;
+    -webkit-display:inline-flex;
+    color:var(--darkaccent1);
+}
+.ref:hover {cursor:pointer;}
+.whitebg {background:var(--light);}
+
+#creditbox {
+    position:relative;
+    padding-top:100px;
+}
+#credit {
+    position:absolute;
+    bottom:20px;
+    right:0px;
+    padding:20px;
+}
+#credit a {
+    color:var(--darkaccent2);
+    background-color:var(--light);
+    padding:15px;
+    text-decoration:none;
+    font-size:.9em;
+}
+#credit a:hover {color:var(--darkaccent1);}
+</style>
+</head>
+<body>
+<!--header-->
+<div class="headerwrap">
+    <div id="header">
+        <div id="logo"><a href="/"><img src="https://64.media.tumblr.com/b484bec568928238f1068e0f7a877d98/e806d99f24a63043-7e/s640x960/4487d851d8a8dba1afe6b9fee684959cb37e3003.png" width="60px" />HEFO-U</a></div>
+        <div id="links">
+            <a href="/#about">about</a>
+            <a href="/#services">services</a>
+            <a href="/#contact">contact</a>
+        </div>
+        <div id="barbox" onclick="showlinks()"><div class="lbar"></div><div class="lbar"></div><div class="lbar"></div></div>
+        <div id="crossbox" onclick="hidelinks()"><div id="cross"></div></div>
+    </div>
+</div>
+<!--landing page-->
+<div id="landing">
+    <div id="landingbox">
+        <div class="heading1">Hope Empowerment Foundation - Uganda</div>
+        <div class="subheading1">Let us make dreams come true.</div>
+        <div class="btnbox">
+            <div class="btn"><a href="#about">Learn more</a></div>
+        </div>
+    </div>
+</div>
+<!--about page-->
+    <div id="content1">
+    <a id="about"></a>
+        <div id="about">
+            <div class="centerbox"><div class="heading2">About</div></div>
+            <div class="slideshow">
+                <div class="images">
+                    <div id="imagea1"><img src="https://64.media.tumblr.com/b484bec568928238f1068e0f7a877d98/e806d99f24a63043-7e/s640x960/4487d851d8a8dba1afe6b9fee684959cb37e3003.png" /></div>
+                    <div id="imagea2"><img src="https://64.media.tumblr.com/a10013e406524fe1fcbc7b601b91abbe/50d7bb80f35f9b63-dd/s640x960/9974fac61e981f4a245f0deb407681f0cce0157b.jpg" /></div>
+                    <div id="imagea3"><img src="https://64.media.tumblr.com/f96f4c40f0173016382e59cde34f1052/50d7bb80f35f9b63-57/s640x960/53a33984aa9ffb09d16d8232ff8e0f01afa92c56.jpg" /></div>
+                </div>
+                <div class="viewbox">
+                    <div id="circlea1" class="viewing" onclick="a1()"></div><div id="circlea2" class="notviewing" onclick="a2()"></div><div id="circlea3" class="notviewing" onclick="a3()"></div>
+                </div>
+            </div>
+            <p>The Hope Empowerment Foundation Uganda is a nonprofit organization founded in the Muguluka Village in the eastern Jinja.
+            <p>HEFO-UGANDA works with children and old people to help them get a better future. Through our services and work, we aim to empower women, children, older people, and anyone in need.
+            <div class="centerbox"><div class="subheading2">Together, we can make a difference.</div></div>
+            <div class="btnbox"><div class="btn2"><a href="https://www.paypal.com/pools/c/8AJ2ehFvLD" target="_blank">donate</a></div></div>
+            <p>NOTE: Our bank account opening is delayed while we are still under supervision with the National Organization Board at the district level. After they give us a license and permit, then we will be able to open the bank account. Thank you for your patience.
+        </div>
+    </div>
+<a id="services"></a>
+<!--services and activities page-->
+    <div id="content2">
+        <div class="centerbox">
+            <div class="heading2">Services</div>
+            <div id="images00"><img src="https://64.media.tumblr.com/86792d8a6370717c3ca20edb4b44008d/032630f5358ca3bc-3d/s640x960/081d7a9b1264e0b4ce01e0ba2c69e38dbb13a70f.jpg" height="450px" /></div>
+        </div>
+        <p>We offer child support to help support children. Pictured above is Mutasa Owen, one of the two children currently benefiting from child support and full sponsorship.</p>
+        <p>Donations of any amount can help change a child's life. For example, for $30 a month, your sponsored child gets school fees, rice, and seeds.
+        <div class="centerbox"><div id="images01"><img src="https://64.media.tumblr.com/f89b2055093428062ba7249be9b07799/50d7bb80f35f9b63-c2/s640x960/519807f7ab6308d62d87322df685ee067d9f68f2.jpg" height="450px" /></div></div>
+        <p><div class="subheading2">Pledge for Kasone Joan's birthday.</div>
+        <p>Joan is the director of HEFO- UGANDA and is dedicating her birthday this year to fundraise for women empowerment programs under HEFO, including agriculture, motivational speeches, and other programs.
+        <p>Your contribution creates an impact and change. Thank you and God bless you!
+        <p><div class="subheading2">Education Sponsorship Project</div>
+        <p>Project objectives:
+            <li>increase access of education to orphans and vulnerable children (OVC)</li>
+            <li>increase household's condition through economic empowerment</li>
+            <li>livelihood training and micro enterprise development for households</li>
+            <li>set up sustainable business to generate income</li>
+            <li>develop innovative agriculture demonstrations</li>
+            <li>strengthen caregiver groups and VSLAS while supporting community leadership roles</li>
+            <li>pay school fees and tuition for orphans and vulnerable children</li>
+            <li>provide starter kits and funds for beneficiaries</li>
+        <p>HEFO will regularly monitor and supervise the project progress, how basic needs are reached for OVC's homes, monthly reports of the project
+        <p>COVID-19 has impacted the world and countless families. Education and literacy, both of which have been great challenges even before the pandemic, have worsened. At HEFO-UGANDA, we are here to try our level best to see communities like Muguluka in eastern Uganda Jinja district and Bulopa in eastern Uganda Kamuli district.
+        <div class="slideshow">
+            <div class="images">
+                <div id="images1"><img src="https://64.media.tumblr.com/8634adcda69d8742ae340cf356184aea/50d7bb80f35f9b63-74/s1280x1920/ade03a7d185d899ab486d6310f343e6c6f2f02b4.jpg" /></div>
+                <div id="images2"><img src="https://64.media.tumblr.com/0332cd2b2bc3a14050c794a5a84879de/50d7bb80f35f9b63-5c/s640x960/de751fd4b1d6e89232905c195b4e59528cb72242.jpg" /></div>
+            </div>
+            <div class="viewbox">
+                <div id="circles1" class="viewing" onclick="s1()"></div><div id="circles2" class="notviewing" onclick="s2()"></div>
+            </div>
+        </div>
+        <p>So far, we have helped these regions' agriculture for more than 55 beneficiaries, but not every dream can be reached without the help of education in the current generation.
+        <p>We expect to help over 200 households to support orphans and vulnerable children.
+        <p><div class="subheading2">Teach a Man How to Hunt</div>
+        <p>How the project helps beneficiaries:
+            <li>teaches them skills so they can earn money</li>
+            <li>give them capital through loans which they can refund later</li>
+        <p>We need your support, help, prayers, and gifts so that we can reach out to these people with numerous dreams.
+        <p>Let's make their dreams shine.
+    </div>
+<!--contact page-->
+<a id="contact"></a>
+    <div id="content3">
+    <div class="centerbox"><div class="heading2">Contact</div></div>
+        <div class="slideshow">
+            <div class="images">
+                <div id="imagec1"><img src="https://64.media.tumblr.com/0c64eb84d412c688f5063e0b48ed8678/50d7bb80f35f9b63-2d/s1280x1920/a29739339a4d0bb5379335fe4a8d4d30cde75cd6.jpg" /></div>
+                <div id="imagec2"><img src="https://64.media.tumblr.com/5d7bcca301eb7d0f221b356e0d4a1bd5/50d7bb80f35f9b63-e5/s1280x1920/60a1fa2cecc5735b3ecae4eb54a55c334f0af82c.jpg" /></div>
+            </div>
+            <div class="viewbox">
+                <div id="circlec1" class="viewing" onclick="c1()"></div><div id="circlec2" class="notviewing" onclick="c2()"></div>
+            </div>
+        </div>
+        <p>If you would like to donate to help our mission, you can reach out through any of the platforms below. As mentioned above, our bank account opening is delayed until we receive our license and permit. You can send any questions you have through Facebook or email.
+        <p>Donate via <a href="https://www.paypal.com/pools/c/8AJ2ehFvLD" target="_blank">Paypal</a>.
+        <p>Connect with us through our Facebook group: <a href="https://www.facebook.com/Hope-empowerment-foundation-Uganda-113768770490595" target="_blank">Hope Empowerment Foundation- Uganda</a>.
+        <p>Email <a href="mailto:hopeempowermentfoundation@gmail.com">the foundation</a>, or email <a href="mailto:kasonejoan05@gmail.com">Joan</a> directly.
+        <p>Call +25 (675)-293-7941
+    </div>
+<div id="creditbox">
+<div id="credit">
+    <a href="http://phoebeoh.com" title="website designed by Phoebe Oh">website by Phoebe Oh</a>
+</div>
+</div>
+</script>
+</body>
+</html>
