@@ -1,6 +1,9 @@
 # hefou
 HTML/CSS for the previous iterations of Hope Empowerment Foundation- Uganda's website
+
 Before I switched HEFO-U's website to Webflow, I coded some basic pages for the sake of rapid prototyping. While hosted on Tumblr, I coded everything from scratch.
+The 2 pieces of code in this repository are copied directly from those Tumblr pages.
+
 I initially messed around with the code in Adobe XD but added in other work (eg: more CSS, the actual page content, etc) while coding in Tumblr and using live preview.
 
 Right now, the "REDIRECT" file shows the code currently in use for the old Tumblr URL (in case any users are directed to the website's old link).
