@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{title}</title>
+<link rel="icon" href="https://64.media.tumblr.com/925b2ec9c36d6d1a2dafbecd6bf5b6e3/ed30b0161d720ad2-29/s1280x1920/0f604f4f7fab46b80032c47769b4b57d0dd3538d.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<meta name="color:title" content="#00160d" />
+<meta name="color:titlehover" content="#00160d" />
+<meta name="color:accent" content="#fff" />
+
+<style>
+@charset "utf-8";
+
+iframe {
+    display:none !important;
+}
+
+body {
+    background:url('https://images.unsplash.com/photo-1551357141-f73a8402ceb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80') no-repeat fixed;
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    font-family:verdana;
+    font-size:20px;
+    text-align:center;
+    overflow:hidden;
+}
+
+#titlebox {
+    width:100vw;
+    padding-top:35vh;
+}
+
+#title a {
+    font-size:3.5em;
+    font-weight:800;
+    color:{color:accent};
+    text-decoration:none;
+}
+
+#title a:hover {
+    text-decoration:underline;
+}
+
+#buttonbox {
+    width:100vw;
+    padding-top:5vh;
+}
+
+#button a {
+    background:rgba(0,22,13,0.6);
+    padding:15px;
+    border-radius:50px;
+    display:inline;
+    color:{color:accent};
+    text-decoration:none;
+    outline:1px solid white;
+}
+
+#button a:hover {
+    background:rgba(0,22,13,0.8);
+}
+
+</style>
+</head>
+<body>
+    <div id="titlebox">
+        <div id="title"><a href="https://hopeempowermentfoundation.webflow.io/">Hope Empowerment<br />Foundation- Uganda</a></div>
+    </div>
+    <div id="buttonbox">
+        <div id="button">
+            <a href="https://hopeempowermentfoundation.webflow.io/">Continue to website</a>
+        </div>
+    </div>
+</body>
+
+<script>
+    setTimeout(function () {
+    window.open('https://hopeempowermentfoundation.webflow.io/', '_blank');
+}, 5000);
+</script>
+</html>
